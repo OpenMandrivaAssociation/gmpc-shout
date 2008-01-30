@@ -1,4 +1,4 @@
-Summary:	A shout splugin for gmpc
+Summary:	A shout plugin for gmpc
 Name:		gmpc-shout
 Version:	0.15.5.0
 Release:	%mkrel 1
@@ -14,7 +14,7 @@ Requires:	gmpc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
-A shout splugin for gmpc.
+A shout plugin for gmpc.
 
 %prep
 %setup -q
