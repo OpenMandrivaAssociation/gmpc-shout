@@ -34,5 +34,5 @@ A shout plugin for gmpc.
 
 %files
 %defattr(-,root,root)
-%{_datadir}/gmpc/plugins/shoutplugin.la
-%{_datadir}/gmpc/plugins/shoutplugin.so
+%{_libdir}/gmpc/plugins/shoutplugin.la
+%{_libdir}/gmpc/plugins/shoutplugin.so
