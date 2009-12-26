@@ -10,6 +10,7 @@ BuildRequires:	libmpd-devel >= 0.15.98
 BuildRequires:	libxml2-devel
 BuildRequires:	gtk+2-devel >= 2.8
 BuildRequires:	gmpc-devel >= 0.15.98
+BuildRequires:	intltool
 Requires:	gmpc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
