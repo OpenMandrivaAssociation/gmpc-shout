@@ -28,10 +28,12 @@ A shout plugin for gmpc.
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 %makeinstall_std
 
+%find_lang %name
+
 %clean
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
 
-%files
+%files -f %name.lang
 %defattr(-,root,root)
 %{_libdir}/gmpc/plugins/shoutplugin.la
 %{_libdir}/gmpc/plugins/shoutplugin.so
